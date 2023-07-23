@@ -73,10 +73,14 @@ header {
     padding: 15px 20px;
     justify-content: center;
     align-items: center;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.15);
+
 }
 
 .btn:hover {
-    filter:brightness(1.4)
+    filter:brightness(1.4);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
+
 
 }
 
@@ -121,6 +125,8 @@ h2 {
 
 .btn4:hover {
     filter:brightness(1.4);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
+
 }
 .numero {
     border-radius: 50%;
@@ -194,7 +200,7 @@ h2 {
     width: 25%;
     color: #008766;
     text-align: center;
-    padding: 7px 2px 7px 2px;
+    padding: 7px 1px 7px 1px;
     border-radius: 2px;
     font-weight: 500;
 }
@@ -208,6 +214,10 @@ h2 {
 }
 
 .note {
+    object-fit: cover;
+}
+
+.image-palette {
     object-fit: cover;
 }
 
@@ -325,10 +335,7 @@ footer .footer-logo .footer-logo2 {
     display: flex;
     width: 100%;
     padding: 10px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-radius: 15px;
     box-shadow: 0 4px 15px 0 #0000001A;
     transition: margin-right 1s linear;
     text-overflow: ellipsis;
@@ -428,6 +435,8 @@ footer .footer-logo .footer-logo2 {
     padding: 15px 1px;
     margin: auto;
     margin-top: 22px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.15);
+
  
 }
 
@@ -443,22 +452,22 @@ footer .footer-logo .footer-logo2 {
 .animation1 {
     animation-name: animation;
     animation-duration: 400ms;
-    animation-delay: 100ms;
-    animation-timing-function: ease-in-out;
+    animation-delay: 300ms;
+    animation-timing-function: ease-out;
 }
 
 .animation2 {
     animation-name: animation;
     animation-duration: 400ms;
-    animation-delay: 300ms;
-    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
 }
 
 .animation3 {
     animation-name: animation;
     animation-duration: 400ms;
-    animation-delay: 550ms;
-    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
 }
 
 .loader {
@@ -481,14 +490,13 @@ footer .footer-logo .footer-logo2 {
     top: 0;
     left: 0;
     box-sizing: border-box;
-    animation: animFw 3s ease-in-out;
+    animation: animFw 3s linear;
   }
 
   .accueil {
-    opacity: 1;
     animation-name: loader;
-    animation-duration: 6s;
-    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-timing-function: linear;
 }
   
 
@@ -530,6 +538,9 @@ footer .footer-logo .footer-logo2 {
         opacity: 0;
     }
 
+    90% {
+        opacity: 0;
+    }
 
     100% {
         opacity: 1;
@@ -540,22 +551,23 @@ footer .footer-logo .footer-logo2 {
   @keyframes animFw {
     0% {
       width: 0;
+ 
     }
+
     100% {
       width: 100%;
     }
+
   }
       
 
 @keyframes animation {
     0% {
-        transform: translateY(0);
-        opacity: 0;
+        transform: translateY(50%);
     }
 
     100% {
-        transform: translateY(50%);
-        opacity: 1;
+        transform: translateY(0%);
     }
     
 }
