@@ -1,225 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style-type: none;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-
-header {
-    display: flex;
-    justify-content: center;
-}
-
-.image-logo {
-    max-width: 35%;
-    padding: 15px 0 15px 0;
-}
-
-.ubication {
-    background-color:#EAEAEA;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 15px 0;
-    color: #353535;
-    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.15);
-
-}
-
-.text1 {
-    color: #353535;
-    font-weight: 500;
-}
-
-.reservations {
-    background-color: #F6F6F6;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0 50px 0;
-}
-
-.reservations h2 {
-    padding: 0 42px 15px 42px;
-    font-size: 24px;
-    width: 75%;
-    text-align: center;
-    font-weight: 700;
-}
-
-.reservations h3 {
-    padding: 10px 34px 35px 34px;
-    font-size: 18px;
-    text-align: center;
-    max-width: 100%;
-    font-weight: 300;
-    color: #353535;
-    font-family: roboto;
-
-}
-
-.btn {
-    background: linear-gradient(-4deg, #9356DC, #FF79DA);
-    border-radius: 35px;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 15px 20px;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.15);
-
-}
-
-.btn:hover {
-    filter:brightness(1.4);
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
-
-
-}
-
-.icone {
-    color: #7E7E7E;
-
-}
-
-.icone:hover {
-    color: #9356DC;
-}
-
-.btn:hover {
-    background-color: #ff79ff;
-}
-
-.functionality {
-    display: flex;
-    flex-direction: column;
-}
-
-h2 {
-    padding: 30px 0 0 80px;
-}
-
-.btn-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.btn2 {
-    display: flex;
-    gap: 30px;    
-    padding: 20px 70px 20px 20px;
-    background: #F7F7F7;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
-    border-radius: 20px;
-    margin: 30px 30px 30px 70px;
-}
-
-.btn4:hover {
-    filter:brightness(1.4);
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
-
-}
-.numero {
-    border-radius: 50%;
-    padding: 5px 9px;
-    margin-left: -30px;
-    font-weight: 500;
-    font-size: 14px;
-    color: #F7F7F7;
-    background: #9356DC;
-}
-
-.text {
-    font-size: 16px;
-    font-weight: 500;
-    color: #000000;
-
-}
-
-.restaurants {
-    display: flex;
-    flex-direction: column;
-    background-color: #F6F6F6;
-
-}
-
-.cards {
-    padding: 20px 0 20px 0;
-}
-
-.card-restaurant {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 0 15px 0;
-}
-
-.restaurants img {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    height: 180px;
-    width: 346px;
-}
-
-.card-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    color: black;
-    padding: 10px 20px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-.card-txt h3 {
-    padding-bottom: 5px;
-
-}
-
-.fa-heart {
-    font-size: 25px;
-}
-
-.cuadro {
-    position: relative;
-    top: -240px;
-    left: 242px;
-    right: 100px;
-    bottom: 100px;
-    background: #99E2D0;
-    width: 25%;
-    color: #008766;
-    text-align: center;
-    padding: 7px 1px 7px 1px;
-    border-radius: 2px;
-    font-weight: 500;
-}
-
-
-.card-subtitle {
-    color: #000000;
-    font-weight: 300;
-    font-size: 17px;
-    font-family: roboto;
-}
-
-.note {
-    object-fit: cover;
-}
-
-.image-palette {
-    object-fit: cover;
-}
 
 footer {
     background: #353535;
@@ -266,11 +44,10 @@ footer .footer-logo .footer-logo2 {
     display: flex;
     padding: 20px;
     gap: 100px;
-    align-items: center;
 }
 
 .logo-menu {
-    max-width: 35%;
+    max-width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -326,6 +103,7 @@ footer .footer-logo .footer-logo2 {
 }
 
 .plat-entrées {
+    padding: 15px;
     display: flex;
     justify-content: center;
 }
@@ -335,51 +113,43 @@ footer .footer-logo .footer-logo2 {
     display: flex;
     width: 100%;
     padding: 10px;
-    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     box-shadow: 0 4px 15px 0 #0000001A;
     transition: margin-right 1s linear;
-    text-overflow: ellipsis;
-    margin: 10px;
 }
+
 
 .btn3:hover {
-    margin-right: 60px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-right: -20px;
 }
 
+.part-vert:hover {
+    opacity: 0;
+}
 
 .part-vert {
     background-color: #99E2D0;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    width: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px 10px 5px 10px;
-    margin: 10px -50px 10px 10px;
-    overflow: hidden;
+    padding: 15px 10px 15px 10px;
+    transition: opacity 1s linear;
    
 }
-
-.part-vert .fa-check {
-    display: flex;
-    text-align: center;
-    padding: 2px 5px;
-    border-radius: 50%;
-    border: 1px solid #F2F2F2;
-    color: #99E2D0;
-    background-color: white;
-    font-size: 8px;
-    
-}
-    
 
 .part-blanche {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 0;
-    
 }
+
+
 .title-plat {
     padding: 0 0 5px 10px;
     font-weight: 500;
@@ -432,8 +202,6 @@ footer .footer-logo .footer-logo2 {
     padding: 15px 1px;
     margin: auto;
     margin-top: 22px;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.15);
-
  
 }
 
@@ -445,26 +213,37 @@ footer .footer-logo .footer-logo2 {
     background-color: brown;
     color: white;
 }
+.part-vert .fa-check {
+display: flex;
+text-align: center;
+padding: 2px 5px;
+border-radius: 50%;
+border: 1px solid #F2F2F2;
+color: #99E2D0;
+background-color: white;
+font-size: 13px;
+
+}
 
 .animation1 {
     animation-name: animation;
     animation-duration: 400ms;
-    animation-delay: 300ms;
-    animation-timing-function: ease-out;
+    animation-delay: 100ms;
+    animation-timing-function: ease-in-out;
 }
 
 .animation2 {
     animation-name: animation;
     animation-duration: 400ms;
-    animation-delay: 1s;
-    animation-timing-function: ease-out;
+    animation-delay: 300ms;
+    animation-timing-function: ease-in-out;
 }
 
 .animation3 {
     animation-name: animation;
     animation-duration: 400ms;
-    animation-delay: 2s;
-    animation-timing-function: ease-out;
+    animation-delay: 550ms;
+    animation-timing-function: ease-in-out;
 }
 
 .loader {
@@ -487,13 +266,14 @@ footer .footer-logo .footer-logo2 {
     top: 0;
     left: 0;
     box-sizing: border-box;
-    animation: animFw 3s linear;
+    animation: animFw 3s ease-in-out;
   }
 
   .accueil {
+    opacity: 1;
     animation-name: loader;
-    animation-duration: 3s;
-    animation-timing-function: linear;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
 }
   
 
@@ -503,7 +283,6 @@ footer .footer-logo .footer-logo2 {
     justify-content: center;
     align-items: center;
     margin-right: 16px;
-    font-size: 22px;
 }
 
 .heart-icon .empty {
@@ -535,9 +314,6 @@ footer .footer-logo .footer-logo2 {
         opacity: 0;
     }
 
-    90% {
-        opacity: 0;
-    }
 
     100% {
         opacity: 1;
@@ -548,29 +324,28 @@ footer .footer-logo .footer-logo2 {
   @keyframes animFw {
     0% {
       width: 0;
- 
     }
-
     100% {
       width: 100%;
     }
-
   }
       
 
 @keyframes animation {
     0% {
-        transform: translateY(50%);
+        transform: translateY(0);
+        opacity: 0;
     }
 
     100% {
-        transform: translateY(0%);
+        transform: translateY(50%);
+        opacity: 1;
     }
     
 }
 
 @media (max-width: 2000px) and (min-width: 768px) {
-    header .image-logo {
+    .header .header__logo {
         width: 15%;
     }
     
@@ -631,10 +406,6 @@ footer .footer-logo .footer-logo2 {
         display: block;
         width: 40%;
         padding-left: 50px;
-        }
-    
-        .logo-menu {
-            max-width: 15%;
         }
 
 

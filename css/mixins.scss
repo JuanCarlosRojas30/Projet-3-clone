@@ -1,0 +1,104 @@
+
+@keyframes loader {
+    0% {
+        opacity: 0;
+    }
+
+
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+  @keyframes animFw {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+      
+
+@keyframes animation {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(50%);
+        opacity: 1;
+    }
+    
+}
+
+@media (max-width: 2000px) and (min-width: 768px) {
+    .header .header__logo {
+        width: 15%;
+    }
+    
+    
+    .reservations {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reservations h2 {
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .btn-container {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-restaurant {
+        padding: 20px 50px;
+        justify-content: center;
+        width: 490px;
+    }
+
+    .lien-card img {
+        width: 490px;
+    }
+
+    .cuadro {
+        left: 350px;
+    }
+
+
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 30px 0 10px 0;
+
+    }
+
+    .footer-logo {
+        display: none;
+    }
+
+    .footer-logo2 {
+        display: block;
+        width: 40%;
+        padding-left: 50px;
+        }
+
+
+
+    
+}
