@@ -326,6 +326,7 @@ footer .footer-logo .footer-logo2 {
 }
 
 .plat-entrées {
+    padding: 15px;
     display: flex;
     justify-content: center;
 }
@@ -333,17 +334,22 @@ footer .footer-logo .footer-logo2 {
 .btn3 {
     background-color: white;
     display: flex;
-    width: 100%;
     padding: 10px;
-    border-radius: 15px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
     box-shadow: 0 4px 15px 0 #0000001A;
     transition: margin-right 1s linear;
     text-overflow: ellipsis;
-    margin: 10px;
+    margin: 0;
 }
 
+
 .btn3:hover {
-    margin-right: 60px;
+    margin-right: -50px;
+
 }
 
 
@@ -355,8 +361,8 @@ footer .footer-logo .footer-logo2 {
     align-items: center;
     justify-content: center;
     padding: 5px 10px 5px 10px;
-    margin: 10px -50px 10px 10px;
-    overflow: hidden;
+    margin: 0 -50px 0 0;
+    overflow:hidden;
    
 }
 
