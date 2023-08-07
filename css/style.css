@@ -327,28 +327,25 @@ footer .footer-logo .footer-logo2 {
 
 .plat-entrées {
     padding: 15px;
-    display: flex;
-    justify-content: center;
 }
 
 .btn3 {
     background-color: white;
     display: flex;
-    padding: 10px;
     width: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     box-shadow: 0 4px 15px 0 #0000001A;
-    transition: margin-right 1s linear;
-    text-overflow: ellipsis;
     margin: 0;
+    overflow: hidden;
 }
 
 
-.btn3:hover {
-    margin-right: -50px;
+.btn3:hover .part-vert {
+    transition: width 1s ease-in-out;
+    width: 50px;
 
 }
 
@@ -357,19 +354,19 @@ footer .footer-logo .footer-logo2 {
     background-color: #99E2D0;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    width: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px 10px 5px 10px;
-    margin: 0 -50px 0 0;
     overflow:hidden;
+    transition: width 1s ease-in-out;
    
 }
 
 .part-vert .fa-check {
     display: flex;
     text-align: center;
-    padding: 2px 5px;
+    padding: 5px 7px;
     border-radius: 50%;
     border: 1px solid #F2F2F2;
     color: #99E2D0;
@@ -383,7 +380,7 @@ footer .footer-logo .footer-logo2 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 0;
+    margin: 10px 5px 5px 5px;
     
 }
 .title-plat {
@@ -411,6 +408,7 @@ footer .footer-logo .footer-logo2 {
 .prix {
     font-size: 15px;
     font-weight: 700;
+    padding: 5px;
 
 }
 
