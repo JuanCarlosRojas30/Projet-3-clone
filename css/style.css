@@ -327,6 +327,9 @@ footer .footer-logo .footer-logo2 {
 
 .plat-entrées {
     padding: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .btn3 {
@@ -340,6 +343,10 @@ footer .footer-logo .footer-logo2 {
     box-shadow: 0 4px 15px 0 #0000001A;
     margin: 0;
     overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+
 }
 
 
@@ -381,6 +388,9 @@ footer .footer-logo .footer-logo2 {
     flex-direction: column;
     width: 100%;
     margin: 10px 5px 5px 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     
 }
 .title-plat {
@@ -394,13 +404,18 @@ footer .footer-logo .footer-logo2 {
     display: flex;
     justify-content: space-between;
     padding-left: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .subtitle-plat {
     font-size: 15px;
     font-weight: 300;
-    text-overflow: ellipsis;
     padding-bottom: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 
 
 }
